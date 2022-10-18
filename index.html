@@ -19,14 +19,15 @@
 
 <body>
 
-  <div class="container">
-    <h1 id="title">
+  <main>
+    <div class="container">
+      <h1 id="title">
       <!-- Advice ID goes here -->
-    </h1>
+      </h1>
 
-    <p id="text">
+      <p id="text">
 
-    </p>
+     </p>
 
     <picture>
       <source media="(min-width: 768px)" srcset="./images/pattern-divider-desktop.svg">
@@ -34,18 +35,22 @@
     </picture>
 
     <div>
-      <button onclick="fetchAdvice()">
+      <button  aria-label="img-button" onclick="fetchAdvice()">
         <img src="./images/icon-dice.svg" alt="">
       </button>
     </div>
   </div>
+    
+  </main>
 
 
 
+  <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">AKASH TAYDE</a>.
   </div>
+  </footer>
 </body>
 
 </html>
